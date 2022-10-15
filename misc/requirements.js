@@ -9,3 +9,4 @@ export async function main(ns) {
 
 	ns.tprint(`\n${money ? `You have enough money (${ns.getPlayer().money}) for progressing...` : `You do not have enough money (${ns.getPlayer().money}) for progressing...`}\n${hacking ? `You have enough hacking skill (${ns.getPlayer().skills.hacking}) for progressing...)` : `You do not have enough hacking skill (${ns.getPlayer().skills.hacking}) for progressing...`}\n${csec ? `You have CSEC's Backdoor installed...` : `You do not have CSEC's Backdoor Installed...`}\n${nitesec ? `You have avmnite-02h's Backdoor installed...` : `You do not have avmnite-02h's Backdoor installed...`}\n${iiii ? `You have I.I.I.I's Backdoor installed...` : `You do not have I.I.I.I Backdoor installed...`}`)
 }
+//MadeByXDConfirmed
