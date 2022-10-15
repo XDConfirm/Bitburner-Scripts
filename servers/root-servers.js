@@ -1,8 +1,5 @@
 /** @param {NS} ns */
 export async function main(ns) {
-	ns.tail();
-	ns.clearLog();
-
 	let servers = ['home'];
 	// Getting All Reachable Servers
 	for (let i = 0; i < servers.length; i++) {
@@ -72,3 +69,5 @@ export async function main(ns) {
 		}
 	}
 }
+
+//MadeByXDConfirmed
