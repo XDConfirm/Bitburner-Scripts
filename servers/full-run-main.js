@@ -1,8 +1,5 @@
 /** @param {NS} ns */
 export async function main(ns) {
-	ns.tail();
-	ns.clearLog();
-
 	let command = ns.flags([
 		['help', false]
 	])
@@ -136,3 +133,4 @@ export async function main(ns) {
 		}
 	}
 }
+//MadeByXDConfirmed
