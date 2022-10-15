@@ -21,3 +21,4 @@ export async function main(ns) {
 		ns.tprint(remove ? `Remove Successful` : `Remove Failed`);
 	}
 }
+//MadeByXDConfirmed
